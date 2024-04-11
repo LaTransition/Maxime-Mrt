@@ -1,0 +1,197 @@
+body {
+    scroll-margin-top: 1px;
+}
+
+.container {  display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.4fr 0.6fr;
+    gap: 5px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+    "A"
+    "B";
+}
+  
+.A { grid-area: A; }
+  
+.B {  display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.3fr 0.7fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+    "BA"
+    "BB";
+    grid-area: B;
+}
+  
+.BA {  display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+    "B1 B2 B3 B4";
+    grid-area: BA;
+}
+  
+.B1 { grid-area: B1; }
+  
+.B2 { grid-area: B2; }
+  
+.B3 { grid-area: B3; }
+  
+.B4 { grid-area: B4; }
+  
+.BB {  display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+    "B5 B6 B7 B8";
+    grid-area: BB;
+}
+  
+.B5 {grid-area: B5; }
+  
+.B6 { grid-area: B6; }
+  
+.B7 { grid-area: B7; }
+  
+.B8 { grid-area: B8; }
+  
+
+
+
+.A {
+    background-color:darkkhaki;
+}
+  
+.B1 {
+    background-color: rgb(84, 96, 165);
+}
+  
+.B2 {
+    background-color: red;
+}
+  
+.B3 {
+    background-color: purple;
+}
+  
+.B4 {
+    background-color: orange;
+}
+    
+  
+  
+.A video {
+    align-self: center;
+    max-width: 100%;
+    height: auto;
+    margin :auto;
+}
+  
+.B5 img {
+    width: 100%;
+    height: auto;
+    margin-top: 0%;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+  
+.B6 img {
+    width: 100%;
+    height: auto;
+    margin-top: 0%;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+  
+.B7 img {
+    width: 100%;
+    height: auto;
+    margin-top: 0%;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+  
+.B8 img {
+    width: 100%;
+    height: auto;
+    margin-top: 0%;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+  
+p {
+    font-family: ninja;
+    font-size: 150%;
+}
+  
+h1 {
+    font-family: ninja;
+    font-size: 250%;
+}
+    
+  
+@font-face {
+    font-family: ninja ;
+    src: url(Turtles.ttf) ;
+}
+  
+  
+a:link {
+    font-family: ninja;
+    font-size: 150%;
+}
+
+.B1 a:link {
+    color: orange;
+}
+
+.B1 a:visited {
+    color: orange;
+}
+
+.B1 a {
+    color: inherit;
+}
+
+.B2 a:link {
+    color: green;
+}
+
+.B2 a:visited {
+    color: green;
+}
+
+.B2 a {
+    color: inherit;
+}
+
+.B3 a:link {
+    color:rgb(241, 210, 12);
+}
+
+.B3 a:visited {
+    color:rgb(241, 210, 12);
+}
+
+.B3 a {
+    color: inherit;
+}
+
+.B4 a:link {
+    color: blueviolet;
+}
+
+.B4 a:visited {
+    color: blueviolet;
+}
+
+.B4 a {
+    color: inherit;
+}
+  
